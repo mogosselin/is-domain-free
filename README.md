@@ -6,7 +6,7 @@ It's a simple library that checks if a domain name is available or not. It uses 
 
 ## Single check
 
-```
+```python
 from is_domain_free import is_free
 if is_free('google.com'):
     print('Google.com is free!')
@@ -18,7 +18,7 @@ else:
 
 If you need to check a batch of domain names, use this method (and not is_free in a loop) since the batch check uses multiple processes in parallel and is faster.
 
-```
+```python
 from is_domain_free import are_free
 
 domains = ['google.com', 'rewqqwerty.com', ...]
