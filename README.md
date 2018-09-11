@@ -42,3 +42,6 @@ There are 2 main classes that are targets for extensions:
 
 That's the main class that 'assembles' both WhoisGetter and WhoisParser, so it shouldn't be necessary to change it / extend it.
 
+# Rate limit
+
+Note that using the 'whois' command is (most of the time) rate limited (depending on the servers used, etc), so there's a limit on the number of domains that you can check in a 'batch'.
